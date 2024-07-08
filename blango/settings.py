@@ -164,11 +164,6 @@ class Dev(Configuration):
                 "stream": "ext://sys.stdout",
                 "formatter": "verbose",
             },
-            "mail_admins": {
-                "level": "ERROR",
-                "class": "django.utils.log.AdminEmailHandler",
-                "filters": ["require_debug_false"],
-            },
         },
         "root": {
             "handlers": ["console"],
